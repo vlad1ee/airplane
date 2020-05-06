@@ -8,7 +8,6 @@ class Airplane:
     
     def take_off(self):
         Airplane.is_flying = True
-        Airplane.land = False
 
     def fly(self, path):
         Airplane.odometr += path 
